@@ -1,0 +1,11 @@
+# Generated delivery jobs may contain user-provided images.
+/output/
+
+# Re-creatable local environments and platform metadata.
+/.venv/
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# npm creates this lock snapshot inside the retained renderer runtime.
+third_party/geometry-dsl/node_modules/.package-lock.json

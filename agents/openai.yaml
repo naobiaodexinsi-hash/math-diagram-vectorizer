@@ -1,0 +1,6 @@
+interface:
+  display_name: "数学图高清矢量重绘"
+  short_description: "把模糊数学题图重绘为可编辑高清 SVG"
+  default_prompt: "使用 $math-diagram-vectorizer 高清重绘我上传的数学图，保持原图结构不变。"
+policy:
+  allow_implicit_invocation: true
