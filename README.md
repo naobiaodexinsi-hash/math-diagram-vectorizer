@@ -15,7 +15,7 @@ Geometry DSL 已固定在 `third_party/geometry-dsl`，并已安装本地 PNG �
 
 ## 日常使用
 
-在 Codex 中上传图片并说“高清重绘这张图”即可。Skill 会先识图并建立 MDIR，再自动调用本地渲染脚本。
+在支持 Skills 的环境中上传图片并说“高清重绘这张图”即可。Skill 会先识图并建立 MDIR，再自动调用本地渲染脚本。
 
 命令行仅供排查或批量运行：
 
@@ -23,8 +23,9 @@ Geometry DSL 已固定在 `third_party/geometry-dsl`，并已安装本地 PNG �
 bin/math-vectorize input.png --mdir diagram.json --mode faithful
 ```
 
-输出位于 `output/job_xxx/`：原图副本、裁剪图、分析 JSON、MDIR、Geometry DSL
-诊断文件、SVG、PNG、overlay 和报告。
+输出位于 `output/job_xxx/`：`semantic.json`、MDIR、`diagram.svg`、
+`check_report.md`，以及原图副本、裁剪图、Geometry DSL 诊断、PNG、overlay
+和 `report.json`。
 
 ## 模式
 
